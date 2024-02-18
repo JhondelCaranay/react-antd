@@ -1,0 +1,31 @@
+For Windows:
+Install nvm-windows:
+Download and install nvm-windows from the nvm-windows GitHub repository.
+
+List available Node.js versions:
+After installing nvm-windows, you can list the available Node.js versions by running:
+
+    
+    > nvm list available
+    
+Install a specific Node.js version:
+Choose the Node.js version you want to install from the list and install it using:
+
+    
+    > nvm install <version>
+
+Switch Node.js versions:
+Once you have multiple Node.js versions installed, you can switch between them using:
+
+    
+    > nvm use <version>
+
+Set default Node.js version (optional):
+You can set a default Node.js version to be used in new shell sessions by running:
+
+    
+    > nvm alias default <version>
+
+Make sure to replace <version> with the desired Node.js version number (e.g., 14.17.0).
+
+After following these steps, you should be able to switch between Node.js versions as needed for your projects.

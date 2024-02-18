@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  .demo-logo {
+    width: 120px;
+    height: 31px;
+    background: white;
+    margin: 16px 28px 16px 0;
+    float: left;
+  }
+
+  .menu {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.content {
+  margin: 0 48px;
+
+  .breadcrumb {
+    margin: 16px 0;
+  }
+
+  .content-inner {
+    padding: 24px;
+    min-height: 280px;
+  }
+}
+
+.footer {
+  text-align: center;
+}
